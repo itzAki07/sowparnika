@@ -1,0 +1,318 @@
+@font-face {
+    font-family: 'humans';
+    src: url("../font/tt0290m.ttf");
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+html, body{
+    font-size: 62.5%;
+}
+.row{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+.col-{
+    padding: 0!important;
+}
+.clear:before,
+.clear:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+    padding: 0;
+    height: 16.5rem;
+    background: #fff!important;
+}
+.navbar-fixed-top {
+    top: -70px;
+    position: relative;
+}
+.navbar .navbar-brand{
+    padding: 0;
+    margin-left: 13.7rem;
+}
+
+.navbar .navigation{
+    display: inherit!important;
+    font-size: 2.8rem;
+    height: 100%;
+    
+}
+.navbar-toggler {
+    font-size: 3rem;
+}
+
+.navbar-expand-md .navbar-nav {
+    align-self: flex-start;
+}
+
+.navbar .navigation li:not(:last-child) {
+    margin-right: 5rem;
+}
+.navbar-expand-md .navbar-nav .nav-item {
+   color: black !important;
+   display: initial;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+   font-weight: 600;
+   height: initial;
+}
+.navbar-expand-md .navbar-nav .nav-item:hover {
+   background-color: #E46F3F;
+}
+.navbar-expand-md .navbar-nav .nav-item:hover .nav-link {
+   background-color: #fff;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+   color: black;
+}
+
+/* Landing Page */
+
+.section_landing {
+    width: 100%;
+    height: 73rem;
+    background-image: url(../img/slide1.png);
+}
+
+/* strips */
+
+.strips {
+    width: 100%;
+    height: 4.6rem;
+    margin: 0;
+}
+.strips_content {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    background-color: #D01830;
+    padding: 0;
+    margin: 0;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: .6rem;
+    position: relative;
+}
+.strips .strips_content p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.strips .color-1 {
+    background-color: #EC6126;
+}
+.strips .color-2 {
+    background-color: #849B3B;
+}
+.strips .color-3 {
+    background-color: #4F0F2C;
+}
+/* about us */
+
+.section_about, .section_exports, .section_primary-exports, .section_country-export, .section_imports {
+    width: 152.6rem;
+    height: auto;
+    padding: 10rem 0 0;
+    margin: 0 auto;
+}
+.section_about .text, .section_exports .text, .section_imports .text {
+    font-size: 4rem;
+    text-align: justify;
+}
+.section_about .text, .section_exports .text:last-child {
+    margin-top: 4rem;
+}
+
+/* Export */
+.section_exports .heading-h2, .section_primary-exports .heading-h2, .section_country-export .heading-h2, .section_imports .heading-h2{
+    font-size: 7.2rem;
+    font-family: humans;
+    font-weight: 700;
+}
+.section_exports .margin-exports, .margin-imports {
+    margin-top: 7.2rem;
+}
+/* Primary Exports */
+
+.section_primary-exports .margin, .section_country-export .margin {  
+    margin: 0 auto;
+    margin-top: 13.6rem;
+    padding: 0;
+}
+.section_primary-exports .margin .row {  
+    margin-left: 0;
+    margin-right: 0;
+}
+.section_primary-exports .content {
+    padding: 0;
+    display: table;
+    height: 51.2rem;
+}
+.section_primary-exports .content p {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 4rem;
+}
+.section_primary-exports .row .img {
+    width: 16.8rem;
+    height: 51.2rem;
+    display: inline-block;
+    background-color: #EC6126;
+    float: left;
+}
+.section_primary-exports .order-1 .img {
+    float: right; 
+}
+/* Country Export */
+.section_country-export .margin .row{
+    justify-content: space-between;
+}
+
+.section_country-export .flag {
+    width: 34.3rem;
+    height: 27rem;
+    display: inline-block;
+    position: relative;
+}
+/* .section_country-export .flag:not(:last-child) {
+    margin-right: 3.5rem;
+} */
+.section_country-export .flag .flag-heading {
+    width           : 34.3rem;
+    height          : 6.3rem;
+    background-color: #613123;
+    display         : inline-block;
+    position        : absolute;
+    top             : 0;
+}
+.section_country-export .flag .flag-image {
+    width: 34.3rem;
+    height: 18.7rem;
+    background-color: #D1D1D1;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+}
+/* Testimonial */
+.section_testimonial {
+    width: 100%;
+    height: 55.5rem;
+    background-color: #FF6337;
+    margin: 10rem 0 0;
+    position: relative;
+
+}
+.section_testimonial .container-custom {
+    width: 152.6rem;
+    height: 37.6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section_testimonial .container-custom .row {
+    justify-content: space-between;
+}
+.section_testimonial .contents {
+    width: 24.5rem;
+    height: 37.6rem;
+    position: initial;
+}
+.section_testimonial .container-custom .row .contents .image {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background-color: #707070; 
+    margin: 0 auto;
+}
+
+.section_testimonial .container-custom .row .contents .text .heading{
+    font-size: 3.4rem;
+    font-weight: 900;
+    color: #fff;
+}
+.section_testimonial .container-custom .row .contents .text .location{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+}
+.section_testimonial .container-custom .row .contents .text .test{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #fff;
+}
+/* Footer */
+.section_footer{
+    width: 100%;
+    height: 85rem;
+    position: relative;
+    background-color: #E1DEDE;
+}
+.section_footer .heading-h2{
+    font-size: 7rem;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    padding-top: 3.5rem;
+    text-transform: uppercase;
+}
+.section_footer .address{
+    font-size: 2.8rem;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    padding-top: 1rem;
+}
+.section_footer .email{
+    font-size: 2.8rem;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    padding-top: 1rem;
+    color: #FF6337;
+}
+.section_footer .banking{
+    font-size: 4.5rem;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    padding-top: 6.4rem;
+}
+.section_footer .bank-logo{
+    width: 35rem;
+    height: 6rem;
+}
+.section_footer .follow{
+    padding: 0;
+    margin: 0;
+    padding-top: 13.5rem;
+    font-size: 4.5rem;
+    font-weight: 300;
+}
+.section_footer .follow-icons{
+    padding: 0;
+    margin: 0;
+    padding-top: 1rem;
+}
+.section_footer .copy{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translate(-50%, 0);
+    font-size: 1.9rem;
+}

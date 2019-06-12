@@ -1,0 +1,334 @@
+@media (max-width: 1370px) {
+    .navbar{
+        height: 8.5rem;
+    }
+    .navbar .navbar-brand {
+        width: 40.5rem;
+    }
+    .navbar .container {
+        padding-right: 12rem;
+    }
+
+    .navbar .navbar-brand img {
+        width: 100%;
+    }
+    .navbar .navigation li:not(:last-child) {
+        margin-right: 2rem;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: 0;
+        font-weight: 400;
+    }
+    .navbar-expand-md .navbar-nav .nav-item {
+        padding-top: 1.7rem;
+        padding-bottom: 0.6rem;
+    }
+
+    .section_landing {
+        background-size: cover;
+        height: 53.6rem;
+    }
+
+    .section_about,
+    .section_exports,
+    .section_primary-exports,
+    .section_country-export,
+    .section_imports {
+        width: 110.6rem;
+        padding: 4rem 0 0;
+    }
+    .section_about .text,
+    .section_exports .text:last-child {
+        margin-top: 2rem;
+        font-size: 2.7rem;
+    }
+    .section_exports .heading-h2,
+    .section_primary-exports .heading-h2,
+    .section_country-export .heading-h2,
+    .section_imports .heading-h2 {
+        font-size: 5.2rem;
+    }
+    .section_exports .margin-exports,
+    .margin-imports {
+        margin-top: 2rem;
+    }
+    .section_exports .margin-exports,
+    .margin-imports {
+        margin-top: 2.7rem;
+    }
+    .section_about .text,
+    .section_exports .text,
+    .section_imports .text {
+        font-size: 2.7rem;
+        text-align: justify;
+    }
+    .section_primary-exports .content {
+        height: 39rem;
+    }
+
+    .section_primary-exports .row .img {
+        width: 12.9rem;
+        height: 39rem;
+    }
+    .section_primary-exports .content p {
+        font-size: 2.7rem;
+    }
+    .section_primary-exports .margin,
+    .section_country-export .margin {
+        margin-top: 5rem;
+    }
+
+    .section_country-export .flag {
+        width: 25rem;
+        height: 20rem;
+    }
+    .section_country-export .flag .flag-heading {
+        width: 100%;
+        height: 3.5rem;
+    }
+    .section_country-export .flag .flag-image {
+        width: 100%;
+        height: 15rem;
+    }
+    .section_testimonial {
+        height: 35rem;      
+    }
+    .section_testimonial .container-custom{
+        width: 80%;
+        height: auto;
+    }
+    .section_testimonial .contents {
+        width: 20rem;
+        height: 24rem;
+        position: initial;
+    }
+    .section_testimonial .container-custom .row .contents .image {
+        width: 10rem;
+        height: 10rem;
+    }
+    .section_testimonial .container-custom .row .contents .text .heading {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    .section_testimonial .container-custom .row .contents .text .test {
+        font-size: 1.4rem;
+    }
+    .section_footer{
+        height: 60rem;
+    }
+    .section_footer .heading-h2 {
+        font-size: 5rem;
+        padding-top: 2rem;
+    }
+    .section_footer .address, .section_footer .email {
+        font-size: 2rem;
+        padding-top: 0.5rem;
+    }
+    .section_footer .banking {
+        font-size: 3.5rem;
+        padding-top: 2.5rem;
+    }
+    .section_footer .bank-logo {
+        width: 24rem;
+        height: auto;
+        padding-top: 2rem;
+    }
+    .section_footer .follow {
+        padding-top: 5.5rem;
+        font-size: 3.5rem;
+    }
+    .section_footer .follow-icons {
+        width: 28rem;
+    }
+}
+
+ @media (max-width:768px){
+    /* body{
+        display: none;
+        visibility: hidden;
+    } */
+
+    .navbar {
+        height: inherit;
+        background-color: #f8f9fa !important;
+    }
+    .navbar .navbar-brand {
+        margin: 0;
+        margin-left: 1rem;
+        width: 23rem;
+        outline: none;
+    }
+    .navbar .navigation {
+        padding: 0;
+    }
+    .navbar .navigation li:last-child {
+        margin-right: 2rem;
+    }
+    .navbar .navbar-nav li {
+        margin-left: auto!important;
+    }
+    .section_landing {
+        height: 17.6rem;
+    }
+    .strips_content {
+        width: 50%;
+        height: 50%;
+        font-size: 1rem;
+    }
+    .section_about,
+    .section_exports,
+    .section_primary-exports,
+    .section_country-export,
+    .section_imports {
+        width: 100%;
+        padding: 3rem 0 0;
+    }
+
+    .section_about .text,
+    .section_exports .text,
+    .section_imports .text {
+        font-size: 2rem;
+        text-align: justify;
+        padding: 0px 3rem;
+    }
+    .section_exports, .section_imports{
+        display: none;
+    }
+
+    .section_exports .heading-h2,
+    .section_primary-exports .heading-h2,
+    .section_country-export .heading-h2,
+    .section_imports .heading-h2 {
+        font-size: 3rem;
+    }
+    .section_primary-exports .margin,
+    .section_country-export .margin {
+        margin-top: 2rem;
+        padding: 0 3rem;
+    }
+    .section_primary-exports .content {
+        height: 19rem;
+    }
+    .section_primary-exports .row .img {
+        width: 8.8rem;
+        height: 30rem;
+    }
+    .section_primary-exports .content p {
+        font-size: 2rem;
+        text-align: justify;
+    }
+    .section_country-export .flag {
+        width: 16rem;
+        height: 14rem;
+            margin-bottom: 3rem;
+    }
+    .section_country-export .flag .flag-heading {
+        width: 100%;
+        height: 2.5rem;
+    }
+    .section_country-export .flag .flag-image {
+        width: 100%;
+        height: 10rem;
+    }
+    .section_testimonial {
+        height: 71rem;
+    }
+    .section_testimonial .container-custom {
+        height: 100%;
+    }
+    .section_testimonial .container-custom .row {
+    
+        height: 100%;
+    }
+    .section_testimonial .contents {
+        margin: 0 auto;
+        height: 16rem;
+        margin-top: 2rem;
+    }
+    .section_testimonial .contents:last-child {
+        margin-bottom: 2rem;
+    }
+    .section_testimonial .container-custom .row .contents .image {
+        width: 7rem;
+        height: 7rem;
+    }
+    .section_testimonial .container-custom .row .contents .text .heading {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    .section_testimonial .container-custom .row .contents .text .location {
+        font-size: 1.3rem;
+    }
+    .section_testimonial .container-custom .row .contents .text .test {
+        font-size: 1.1rem;
+    }
+      .section_footer{
+          height: 34rem;
+      }
+    .section_footer .heading-h2 {
+        font-size: 3.5rem;
+        padding-top: 1.5rem;
+    }
+    .section_footer .address,
+    .section_footer .email {
+        font-size: 1.5rem;
+    }
+    .section_footer .banking {
+        font-size: 2.5rem;
+        padding-top: 0.5rem;
+    }
+    .section_footer .bank-logo {
+        width: 20rem;
+        padding-top: 1rem;
+    }
+    .section_footer .follow {
+        padding-top: 0.5rem;
+        font-size: 2.5rem;
+    }
+    .section_footer .follow-icons {
+        width: 15rem;
+    }
+    .section_footer .copy {
+        font-size: 1rem;
+        width: 100%;
+    }
+} 
+
+@media (max-width:380px) {
+    .section_primary-exports .row .img {
+        width: 7.8rem;
+    }
+    .section_primary-exports .content {
+        height: 19rem;
+        margin-bottom: 2rem;
+    }
+    .section_country-export .flag {
+        width: 15rem;
+    }
+}
+@media (max-width:350px) {
+    .section_primary-exports .row .img {
+        width: 6.5rem;
+    }
+    .section_primary-exports .content {
+        height: 19rem;
+        margin-bottom: 2rem;
+    }
+    .section_country-export .flag {
+        width: 12rem;
+        height: 12rem;
+    }
+    .section_country-export .flag .flag-image {
+        height: 8rem;
+    }
+    .section_testimonial {
+        margin: 2rem 0 0;
+    }
+    .section_testimonial .contents {
+        margin-top: 4.5rem;
+    }
+}
+@media (max-width:468px) {
+    .section_primary-exports .row .img {
+        width: 8.7rem;
+}
