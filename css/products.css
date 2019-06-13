@@ -66,3 +66,8 @@ html {
 #accordian .card .card-body .margin{
     margin-top: 5rem;
 }
+@media (max-width:1370px) {
+    .section__products {
+        padding: 3rem 0 ;
+    }
+}
