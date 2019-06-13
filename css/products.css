@@ -76,6 +76,63 @@ html {
     }
    
 }
+@media (max-width:768px) {
+    #borderbtm {
+        width: 94%;
+    }
+
+    .row {
+        display: inherit;
+    }
+
+    #accordian .card .card-body .margin {
+        margin-top: 1rem;
+    }
+
+    .img-fluid {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+}
+@media (max-width:380px) {
+    #borderbtm {
+        width: 94%;
+    }
+
+    .row {
+        display: inherit;
+    }
+
+    #accordian .card .card-body .margin {
+        margin-top: 1rem;
+    }
+
+    .img-fluid {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+}
+@media (max-width:360px) {
+    #borderbtm {
+        width: 94%;
+    }
+
+    .row {
+        display: inherit;
+    }
+
+    #accordian .card .card-body .margin {
+        margin-top: 1rem;
+    }
+
+    .img-fluid {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+}
 
 @media (max-width:450px){
     #borderbtm {
