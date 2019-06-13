@@ -55,7 +55,7 @@ html {
     transform: rotate(180deg);
     transition: all .5s;
     position: absolute;
-    bottom: -4px;
+    bottom: -25px;
     right: 0;
 }
 
