@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    overflow-y: scroll;
+}
+.section__products {
+    padding: 15rem 0;
+    height: auto;
+}
+.section__products .heading-h2 {
+    font-size: 7.2rem;
+}
+
+#accordian {
+    margin-top: 5rem;
+   
+}
+#accordian .card {
+    border: none;
+    margin-top: 5rem;
+     
+}
+
+#accordian .card a:link{
+    text-decoration: none;
+}
+#accordian .card .card-header {
+    background-color: transparent;
+    border: 0;
+    position: relative;
+}
+#borderbtm{
+    width: 97%;
+    height: 0;
+    border-bottom: 2px solid #EC6126;
+    margin-top: 1rem;
+}
+#accordian .card .card-header h5 {
+    font-size: 3rem;
+    color: #EC6126;    
+}
+#accordian .card .card-header h5 .fas {
+    float: right; 
+}
+#accordian .card a[aria-expanded="true"] h5 .fas{
+    transform: rotate(180deg);
+    transition: all .5s;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+}
+#accordian .card a[aria-expanded="false"] h5 .fas{
+    transition: all .5s;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+}
+
+#accordian .card .card-body .img-fluid {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+    
+}
+#accordian .card .card-body .margin{
+    margin-top: 5rem;
+}

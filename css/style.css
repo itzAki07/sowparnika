@@ -3,8 +3,12 @@
     src: url("../font/tt0290m.ttf");
 }
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+*{
+    scroll-behavior: smooth;
+}
 html, body{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 .row{
     margin-left: 0!important;
@@ -159,21 +163,30 @@ html, body{
 .section_primary-exports .content {
     padding: 0;
     display: table;
-    height: 51.2rem;
 }
 .section_primary-exports .content p {
     display: table-cell;
     vertical-align: middle;
     font-size: 4rem;
+    padding-right: 0;
+    padding-left: 10%;
+    text-align: justify;
 }
+.section_primary-exports .content .pad {
+    padding-left: 0;
+    padding-right: 10%;
+}
+
 .section_primary-exports .row .img {
-    width: 16.8rem;
-    height: 51.2rem;
+    width: 25%;
     display: inline-block;
-    background-color: #EC6126;
     float: left;
+    padding: 3px;
 }
-.section_primary-exports .order-1 .img {
+.section_primary-exports .row .img img{
+    width: 100%;
+}
+.section_primary-exports .order-lg-1 .img {
     float: right; 
 }
 /* Country Export */

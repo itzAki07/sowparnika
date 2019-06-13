@@ -3,10 +3,11 @@
         height: 8.5rem;
     }
     .navbar .navbar-brand {
-        width: 40.5rem;
+        width: 34rem;
+        margin-left: 7rem;
     }
     .navbar .container {
-        padding-right: 12rem;
+        padding-right: 7rem;
     }
 
     .navbar .navbar-brand img {
@@ -62,13 +63,8 @@
         font-size: 2.7rem;
         text-align: justify;
     }
-    .section_primary-exports .content {
-        height: 39rem;
-    }
-
     .section_primary-exports .row .img {
-        width: 12.9rem;
-        height: 39rem;
+        width: 25%;
     }
     .section_primary-exports .content p {
         font-size: 2.7rem;
@@ -207,16 +203,20 @@
         padding: 0 3rem;
     }
     .section_primary-exports .content {
-        height: 19rem;
     }
     .section_primary-exports .row .img {
-        width: 8.8rem;
-        height: 30rem;
+        width: 25%;
+      
     }
     .section_primary-exports .content p {
         font-size: 2rem;
         text-align: justify;
+        padding: 0;
     }
+    .section_primary-exports .content .pad {
+        padding: 0;
+    }
+
     .section_country-export .flag {
         width: 16rem;
         height: 14rem;
@@ -296,10 +296,9 @@
 
 @media (max-width:380px) {
     .section_primary-exports .row .img {
-        width: 7.8rem;
+        width: 25%
     }
     .section_primary-exports .content {
-        height: 19rem;
         margin-bottom: 2rem;
     }
     .section_country-export .flag {
@@ -308,10 +307,9 @@
 }
 @media (max-width:360px) {
     .section_primary-exports .row .img {
-        width: 6.5rem;
+        width: 25%;
     }
     .section_primary-exports .content {
-        height: 19rem;
         margin-bottom: 2rem;
     }
     .section_country-export .flag {
@@ -330,5 +328,9 @@
 }
 @media (max-width:450px) {
     .section_primary-exports .row .img {
-        width: 7.5rem;
+        width: 25%;
+    }
+    .section_testimonial {
+        margin: 4rem 0 0;
+    }
 }
