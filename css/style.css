@@ -162,15 +162,16 @@ html, body{
 }
 .section_primary-exports .content {
     padding: 0;
-    display: table;
 }
 .section_primary-exports .content p {
-    display: table-cell;
-    vertical-align: middle;
+
     font-size: 4rem;
     padding-right: 0;
     padding-left: 10%;
     text-align: justify;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .section_primary-exports .content .pad {
     padding-left: 0;
