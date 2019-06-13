@@ -43,19 +43,23 @@ html {
 #accordian .card .card-header h5 .fas {
     float: right; 
 }
-#accordian .card a[aria-expanded="true"] h5 .fas{
+
+#accordian .card a[aria-expanded="false"] h5 .fa-chevron-circle-down {
+    transition: all .5s;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+
+}
+#accordian .card a[aria-expanded="true"] h5 .fa-chevron-circle-down {
     transform: rotate(180deg);
     transition: all .5s;
     position: absolute;
     bottom: -4px;
     right: 0;
 }
-#accordian .card a[aria-expanded="false"] h5 .fas{
-    transition: all .5s;
-    position: absolute;
-    bottom: -4px;
-    right: 0;
-}
+
+
 
 #accordian .card .card-body .img-fluid {
     width: 10rem;
@@ -70,4 +74,22 @@ html {
     .section__products {
         padding: 3rem 0 ;
     }
+   
+}
+
+@media (max-width:450px){
+    #borderbtm {
+        width: 94%;
+    }
+    .row{
+        display: inherit;
+    }
+    #accordian .card .card-body .margin {
+        margin-top: 1rem;
+    }
+    .img-fluid {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+     
 }
