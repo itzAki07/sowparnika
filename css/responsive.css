@@ -1,6 +1,6 @@
 @media (max-width: 1370px) {
     .navbar{
-        height: 8.5rem;
+        height: 15vh;
     }
     .navbar .navbar-brand {
         width: 34rem;
@@ -27,7 +27,7 @@
 
     .section_landing {
         background-size: cover;
-        height: 80vh;
+        height: 85vh;
         ;
     }
 
