@@ -62,14 +62,14 @@ html {
 
 
 #accordian .card .card-body .img-fluid {
-    width: 10rem;
-    height: 10rem;
-    border: 1px solid black;
+    width: 32.8rem;
+    height: 20.1rem;
     
 }
 #accordian .card .card-body .margin{
     margin-top: 5rem;
 }
+
 @media (max-width:1370px) {
     .section__products {
         padding: 3rem 0 ;
