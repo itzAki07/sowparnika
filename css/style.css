@@ -298,7 +298,7 @@ html, body{
 /* Footer */
 .section_footer{
     width: 100%;
-    height: 85rem;
+    height: 70rem;
     position: relative;
     background-color: #E1DEDE;
 }
@@ -311,14 +311,14 @@ html, body{
     text-transform: uppercase;
 }
 .section_footer .address{
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 300;
     padding: 0;
     margin: 0;
     padding-top: 1rem;
 }
 .section_footer .email{
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 300;
     padding: 0;
     margin: 0;
@@ -330,23 +330,24 @@ html, body{
     font-weight: 300;
     padding: 0;
     margin: 0;
-    padding-top: 6.4rem;
+    padding-top: 1rem;
 }
 .section_footer .bank-logo{
-    width: 35rem;
-    height: 6rem;
+    width: 24rem;
+    /* height: 6rem; */
 }
 .section_footer .follow{
     padding: 0;
     margin: 0;
-    padding-top: 13.5rem;
-    font-size: 4.5rem;
+    padding-top: 3.5rem;
+    font-size: 3.5rem;
     font-weight: 300;
 }
 .section_footer .follow-icons{
     padding: 0;
     margin: 0;
     padding-top: 1rem;
+    width: 30rem;
 }
 .section_footer .copy{
     padding: 0;
