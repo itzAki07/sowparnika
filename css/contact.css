@@ -1,0 +1,34 @@
+#locate, #contacts {
+    padding: 5rem 0;
+}
+#locate h1, #contacts h1 {
+    padding-bottom: 5rem;
+    font-weight: 600;
+}
+ .maps {
+    height: 70vh;
+    padding-top: 5rem;
+    background-image: url(../img/maps.PNG)
+}
+#contacts .lead {
+    font-size: 2rem;
+}
+#contacts .form-group label {
+    font-size: 2rem;
+    font-weight: 300;
+}
+#contacts .form-control {
+    font-size: 2rem;
+}
+#contacts .btn {
+    font-size: 2rem;
+    width: 100%;
+    background-color: #849B3B;
+    margin-top: 1rem;
+    outline: #849B3B;
+    border: #849B3B;
+}
+#contacts .form-control::placeholder{
+    font-size: 1.8rem;
+    font-weight: 300;
+}

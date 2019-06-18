@@ -112,31 +112,34 @@
         font-size: 1.4rem;
     }
     .section_footer{
-        height: 60rem;
+        height: 54rem;
     }
     .section_footer .heading-h2 {
-        font-size: 5rem;
+        font-size: 4rem;
         padding-top: 2rem;
     }
     .section_footer .address, .section_footer .email {
-        font-size: 2rem;
+        font-size: 1.7rem;
         padding-top: 0.5rem;
     }
     .section_footer .banking {
-        font-size: 3.5rem;
-        padding-top: 2.5rem;
+        font-size: 3rem;
+        padding-top: 1.7rem;
     }
     .section_footer .bank-logo {
-        width: 24rem;
+        width: 20rem;
         height: auto;
         padding-top: 2rem;
     }
     .section_footer .follow {
-        padding-top: 5.5rem;
-        font-size: 3.5rem;
+        padding-top: 1.7rem;
+        font-size: 3rem;
     }
     .section_footer .follow-icons {
-        width: 28rem;
+        width: 22rem;
+    }
+    .section_footer .copy {
+        font-size: 1.4rem;
     }
 }
 
