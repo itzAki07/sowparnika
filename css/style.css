@@ -373,3 +373,9 @@ html, body{
     z-index: 1000;
     display: none;
 }
+.click {
+    width: 100%;
+    display: block;
+    height: 100%;
+    color: transparent;
+}

@@ -7,21 +7,20 @@
 }
  .maps {
     height: 70vh;
-    padding-top: 5rem;
-    background-image: url(../img/maps.PNG)
+    background-image: url(../img/mapfin.jpg);
 }
 #contacts .lead {
-    font-size: 2rem;
+    font-size: 2.6rem;
 }
 #contacts .form-group label {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 300;
 }
 #contacts .form-control {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 #contacts .btn {
-    font-size: 2rem;
+    font-size: 3rem;
     width: 100%;
     background-color: #849B3B;
     margin-top: 1rem;
@@ -29,6 +28,6 @@
     border: #849B3B;
 }
 #contacts .form-control::placeholder{
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     font-weight: 300;
 }

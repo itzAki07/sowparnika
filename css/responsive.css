@@ -149,9 +149,13 @@
         visibility: hidden;
     } */
 
+    .navbar-toggler {
+        font-size: 2rem;
+    }
     .navbar {
         height: inherit;
         background-color: #f8f9fa !important;
+        padding: 5px;
     }
     .navbar .navbar-brand {
         margin: 0;
@@ -162,8 +166,22 @@
     .navbar .navigation {
         padding: 0;
     }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: 0;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .navbar-expand-md .navbar-nav .nav-item {
+        padding: .6rem;
+    }
+    .navbar .navigation li:not(:last-child) {
+        margin-right: 1rem;
+    }
+    .section_landing {
+        background-size: contain;
+    }
     .navbar .navigation li:last-child {
-        margin-right: 2rem;
+        margin-right: 1rem;
     }
     .navbar .navbar-nav li {
         margin-left: auto!important;
@@ -268,7 +286,7 @@
         font-size: 1.1rem;
     }
       .section_footer{
-          height: 34rem;
+          height: 43rem;
       }
     .section_footer .heading-h2 {
         font-size: 3.5rem;
