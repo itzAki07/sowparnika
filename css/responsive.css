@@ -256,6 +256,9 @@
     /* .section_testimonial {
         height: 71rem;
     } */
+    .section_testimonial {
+        height: 27rem;
+    }
     .section_testimonial .container-custom {
         height: 100%;
     }
