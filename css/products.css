@@ -58,13 +58,18 @@ html {
     bottom: -25px;
     right: 0;
 }
-
+.fas {
+    font-size: 3rem;
+}
 
 
 #accordian .card .card-body .img-fluid {
     width: 32.8rem;
     height: 20.1rem;
     
+}
+#accordian .card .card-body .img-fluid img{
+    width: 100%;
 }
 #accordian .card .card-body .margin{
     margin-top: 5rem;

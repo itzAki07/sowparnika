@@ -37,7 +37,7 @@
     .section_country-export,
     .section_imports {
         width: 110.6rem;
-        padding: 4rem 0 0;
+        padding: 4rem 0;
     }
     .section_about .text,
     .section_exports .text:last-child {
@@ -141,6 +141,9 @@
     .section_footer .copy {
         font-size: 1.4rem;
     }
+    .text-flag{
+        font-size: 2.3rem;
+    }
 }
 
  @media (max-width:768px){
@@ -187,7 +190,22 @@
         margin-left: auto!important;
     }
     .section_landing {
-        height: 17.6rem;
+        height: 17rem;
+    }
+    .carousel-item .w-100 {
+        height: auto;
+    }
+    .carousel-indicators {
+        bottom: 0;
+    }
+    .fas {
+        font-size: 3rem;
+    }
+    .overlay{
+        height: 100%;
+    }
+    .strips {
+        margin: -.3px 0 0;
     }
     .strips_content {
         width: 50%;
@@ -210,8 +228,15 @@
         text-align: justify;
         padding: 0px 3rem;
     }
-    .section_exports, .section_imports{
-        display: none;
+    .section_exports .text:last-child, .section_imports .text{
+        /* display: none; */
+        font-size: 2rem;
+    }
+    #export .container-fluid {
+        padding: 0;
+    }
+    .section_imports .container {
+        padding: 0 0 4rem 0;
     }
 
     .section_exports .heading-h2,
@@ -223,7 +248,7 @@
     .section_primary-exports .margin,
     .section_country-export .margin {
         margin-top: 2rem;
-        padding: 0 3rem;
+        padding: 0 2rem;
     }
     .section_primary-exports .content {
     }
@@ -318,9 +343,19 @@
         font-size: 1rem;
         width: 100%;
     }
+    .text-flag {
+        font-size: 1.5rem;
+    }
+    
 } 
 
 @media (max-width:380px) {
+    .section_landing {
+        height: 14.8rem;
+    }
+    .strips {
+        margin: 6px 0 0;
+    }
     .section_primary-exports .row .img {
         width: 25%
     }
@@ -331,7 +366,10 @@
         width: 15rem;
     }
 }
-@media (max-width:360px) {
+@media (max-width:356px) {
+    .section_landing {
+        height: 13.2rem;
+    }
     .section_primary-exports .row .img {
         width: 25%;
     }

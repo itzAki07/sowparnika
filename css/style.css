@@ -82,8 +82,49 @@ html, body{
 .section_landing {
     width: 100%;
     height: 85vh;
-    background-image: url(../img/slide1.png);
-    background-size: cover;
+    /* background-image: url(../img/slide1.jpg); */
+    /* background-size: cover; */
+}
+.overlay {
+    width: 100%;
+    height: 79vh;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 1;
+    top: 0;
+    position: absolute;
+}
+.carousel-item .w-100 {
+    height: 85vh;
+}
+.carousel-indicators {
+    bottom: 5rem;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    height: 5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+    color: black;
+}
+.fas {
+    font-size: 8rem;
+}
+.fa-angle-right:before,
+.fa-angle-left:before {
+    color: #fff;
+    opacity: .5;
+}
+.fa-angle-right:hover::before,
+.fa-angle-left:hover::before {
+    color: #fff;
+    opacity: 1;
+}
+.carousel-indicators li{
+    background-color: #fff;
+}
+.carousel-indicators .active {
+    color: #fff;
 }
 
 /* strips */
@@ -122,7 +163,6 @@ html, body{
 .strips_content {
     width: 25%;
     height: 100%;
-    display: inline-block;
     background-color: #D01830;
     padding: 0;
     margin: 0;
@@ -161,16 +201,16 @@ html, body{
     margin: 0 auto;
 }
 .section_about .text, .section_exports .text, .section_imports .text {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: justify;
 }
 .section_about .text, .section_exports .text:last-child {
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 /* Export */
 .section_exports .heading-h2, .section_primary-exports .heading-h2, .section_country-export .heading-h2, .section_imports .heading-h2{
-    font-size: 7.2rem;
+    font-size: 6rem;
     font-family: humans;
     font-weight: 700;
 }
@@ -193,7 +233,7 @@ html, body{
 }
 .section_primary-exports .content p {
 
-    font-size: 4rem;
+    font-size: 3rem;
     padding-right: 0;
     padding-left: 10%;
     text-align: justify;
@@ -208,12 +248,18 @@ html, body{
 
 .section_primary-exports .row .img {
     width: 25%;
-    display: inline-block;
     float: left;
-    padding: 3px;
+    padding: 3px;    
+    overflow: hidden;
+}
+.section_primary-exports .row .img img:hover {
+    transform: scale(1.1);
+    transition: all .2s;
 }
 .section_primary-exports .row .img img{
     width: 100%;
+    transition: all .2s;
+    overflow: hidden;
 }
 .section_primary-exports .order-lg-1 .img {
     float: right; 
@@ -235,9 +281,9 @@ html, body{
 .section_country-export .flag .flag-heading {
     width           : 34.3rem;
     height          : 6.3rem;
-    background-color: #613123;
+    background-color: #c2b5b1;
     display         : inline-block;
-    position        : absolute;
+    position        : relative;
     top             : 0;
 }
 .section_country-export .flag .flag-image {
@@ -248,11 +294,27 @@ html, body{
     position: absolute;
     bottom: 0;
 }
+.section_country-export .flag .flag-image img {
+    width: 100%;
+    height: 100%;
+}
+.text-flag{
+    font-size: 41px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.section_imports .container {
+    padding-bottom: 4rem;
+}
+.margin-imports {
+    margin-top: 4rem;
+}
 /* Testimonial */
 .section_testimonial {
     width: 100%;
     height: 55.5rem;
-    background-color: #FF6337;
+    background-color: #849B3B;
     margin: 10rem 0 0;
     position: relative;
 
@@ -282,7 +344,7 @@ html, body{
 }
 
 .section_testimonial .container-custom .row .contents .text .heading{
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     font-weight: 900;
     color: #fff;
 }
@@ -299,16 +361,18 @@ html, body{
 /* Footer */
 .section_footer{
     width: 100%;
-    height: 70rem;
+    height: 64rem;
     position: relative;
     background-color: #E1DEDE;
+    padding: 4rem 0;
+    box-sizing: content-box;
 }
 .section_footer .heading-h2{
     font-size: 7rem;
     font-weight: 300;
     padding: 0;
     margin: 0;
-    padding-top: 3.5rem;
+    /* padding-top: 3.5rem; */
     text-transform: uppercase;
 }
 .section_footer .address{
@@ -318,12 +382,18 @@ html, body{
     margin: 0;
     padding-top: 1rem;
 }
-.section_footer .email{
+.section_footer .email a{
     font-size: 2rem;
     font-weight: 300;
     padding: 0;
     margin: 0;
     padding-top: 1rem;
+    color: #FF6337;
+}
+.section_footer .email:link a,
+.section_footer .email:visited a,
+.section_footer .email:hover a {
+    text-decoration: none;
     color: #FF6337;
 }
 .section_footer .banking{

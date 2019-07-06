@@ -31,3 +31,45 @@
     font-size: 2.8rem;
     font-weight: 300;
 }
+
+@media (max-width: 575.98px) {
+    #locate, #contacts {
+        padding: 5rem 0 0;
+        text-align: center;
+        
+    }
+    #contacts {
+        padding: 5rem 2rem;
+    }
+    .display-3 {
+        font-size: 3.5rem;
+    }
+    #locate h1,
+    #contacts h1 {
+        padding-bottom: 1rem;
+        font-weight: 600;
+    }
+
+    .maps {
+        height: 45vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: red;
+        background-position: center top;
+    }
+    #contacts .lead {
+        font-size: 1.4rem;
+    }
+    #contacts .form-group label {
+        font-size: 2rem;
+    }
+    #contacts .form-control {
+        font-size: 1.7rem;
+    }
+    #contacts .form-control::placeholder {
+        font-size: 1.7rem;
+    }
+    #contacts .btn {
+        font-size: 2rem;
+    }
+}
